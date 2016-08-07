@@ -18,6 +18,7 @@ public class AddArrayNumber {
         for(int i=0; i<array.length; i++){
             total = total+array[i];
         }
+        System.out.println("Sum");
         System.out.println("Sum of the array: " + total);
     }
 }
